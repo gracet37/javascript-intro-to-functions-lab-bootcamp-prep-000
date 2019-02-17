@@ -28,9 +28,12 @@ lowercase.toLowerCase() === lowercase
 function sayHiToGrandma(string) {
   console.log(string.toLowerCase())
   return string.toLowerCase()
+<<<<<<< HEAD
 }
 function sayHiToGrandma(string) {
   if(string.toLowerCase() === string) {return 'I can\'t hear you!'}
   if(string.toUpperCase() === string) {return 'YES INDEED!'}
   if(string === "I love you, Grandma.") {return 'I love you, too.'}
+=======
+>>>>>>> 0402299923d70fdc61f760b4cefc0b878748b9c8
 }
